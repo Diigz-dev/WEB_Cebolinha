@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgb(0, 75, 0), #2C332B);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+/* CABEÇA */
+header{
+color: rgb(2, 2, 69);
+}
+header h1{
+    text-align: center;
+}
+#inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 15px;
+    padding: 1px;
+}
+header > div > a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    margin: 20px;
+}
+header > div > a:hover{
+    text-decoration: underline;
+}
+#centro{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.imagem{
+    max-width: 10vh;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* CORPO */
+main{
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 823px;
+    box-shadow: 5px 5px 15px rgb(0, 75, 0);
+}
+main h1{
+    padding: 10px;
+    text-decoration: underline;
+}
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(208, 255, 208);
+}
+main a:hover{
+    color: rgb(10, 181, 10);
+    text-decoration: underline;
+    height: 1px;
+}
+main p{
+    margin: 10px;
+    text-transform: initial;
+    text-align: justify;
+    text-indent: 10px;
+    padding: 5px;
+}
+#c_correndo{
+    display: absolute;
+    border-radius: 10px;
+    width: 420px;
+    box-shadow: 1px 1px 8px 0.5px rgb(61, 156, 61);
+}
+.correcao{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+footer > p{
+    color: white;
+}
